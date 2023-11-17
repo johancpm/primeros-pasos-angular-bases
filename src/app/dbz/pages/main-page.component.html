@@ -1,0 +1,13 @@
+<h1 class="mt-3">Nueva pagina DBZ</h1>
+<hr>
+
+<div class="row">
+  <div class="col">
+    <app-personajes-dbz (onDelete)="onDeleteByid($event)" [charactersReal]="characterList" class="col"></app-personajes-dbz>
+
+  </div>
+<div class="col">
+  <app-formulario-dbz  (chargerCharacter)="chargerCharacter($event)" class="col"></app-formulario-dbz>
+
+</div>
+</div>
